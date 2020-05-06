@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shades of White</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<p>feel the whiteness</p>
+	<script type="text/javascript">
+		var color = ["#FDFEFE","#FBFCFC","#F7F9F9","#F4F6F7","#F8F9F9","#F0F3F4","#F2F3F4","#ECF0F1"];
+		var i = 0;
+	document.querySelector("p").addEventListener("click",
+		function(){
+			i = i <color.length ? ++i : 0;
+			document.querySelector("body").style.background = color[i]
+	})
+</script>
+</body>
+</html>
