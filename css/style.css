@@ -2,7 +2,7 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background: #ECF0F1;
+	background: #FDFEFE;
 }
 p
 {
@@ -18,5 +18,5 @@ p
 	font-family: 'IM Fell Double Pica', serif;
 	color: white;
 	text-transform: lowercase;
-	cursor: pointer;
+	cursor: progress;
 }
