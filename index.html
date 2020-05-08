@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<p>feel the whiteness</p>
+	<div id="blur">feel the whiteness</div>
 	<script type="text/javascript">
 		var color = [
 			"#f7f6ef","#f5f4ed","#fffef5","#f3f9f9","#fcfcf8","#f9f5f0","#f3eff0","#f3f3f1",
@@ -23,7 +23,7 @@
 			"#fcfcf7","#f2f2f0","#fef5ef","#f1f1f0","#f6f3ed","#f8faf8","#f2f2ed"
 ];
 		var i = 0;
-	document.querySelector("p").addEventListener("click",
+	document.querySelector("body").addEventListener("click",
 		function(){
 			i = i <color.length ? ++i : 0;
 			document.querySelector("body").style.background = color[i]

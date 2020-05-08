@@ -6,6 +6,10 @@ body
 }
 p
 {
+	cursor: none;
+}
+#blur
+{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -14,8 +18,10 @@ p
 	background: #fff;
 	border: none;
 	outline: none;
-	font-size: 80px;
 	font-family: 'IM Fell Double Pica', serif;
+	font-size: 80px;
+	color: white;
+	filter: blur(2px);
 	color: white;
 	text-transform: lowercase;
 	cursor: none;
