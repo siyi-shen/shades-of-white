@@ -4,10 +4,6 @@ body
 	padding: 0;
 	background: #f5f4ed;
 }
-p
-{
-	cursor: none;
-}
 #blur
 {
 	position: absolute;
