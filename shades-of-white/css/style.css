@@ -1,0 +1,23 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+#blur
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 10px
+	background: #fff;
+	border: none;
+	outline: none;
+	font-family: 'Pinyon Script', serif;
+	font-size: 80px;
+	color: white;
+	filter: blur(2px);
+	color: white;
+	text-transform: lowercase;
+	cursor: none;
+}
